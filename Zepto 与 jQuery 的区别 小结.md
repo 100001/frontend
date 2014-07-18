@@ -1,6 +1,8 @@
 1. Zepto 对象 不能自定义事件
-  例如执行： 
-    $({}).bind('cust', function(){});
+  例如执行：
+```
+    $({}).bind('cust', function(){});                             
+``` 
   结果： 
     TypeError: Object has no method 'addEventListener'
   
