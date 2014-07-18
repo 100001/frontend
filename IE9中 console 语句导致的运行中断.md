@@ -1,0 +1,1 @@
+In Internet Explorer 9 (and 8), the console object is only exposed when the developer tools are opened for a particular tab. If you hide the developer tools window for that tab, the console object remains exposed for each page you navigate to. If you open a new tab, you must also open the developer tools for that tab in order for the console object to be exposed.
