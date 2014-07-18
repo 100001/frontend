@@ -12,12 +12,12 @@
 但是呢，如果页面是通过 form submit 数据到服务端，这时服务端获取到的textarea中的换行符就是 \r\n  两个字符。
 以下是通过fiddler 抓包 form 中 textarea 对应的字段：
 
-    ![](http://s2.sinaimg.cn/mw690/001YiQ09ty6FgVKujmN21&690)
+![](http://s2.sinaimg.cn/mw690/001YiQ09ty6FgVKujmN21&690)
 
 这其中的
 
-    ![](http://s13.sinaimg.cn/mw690/001YiQ09ty6FgVc2uRu7c&690)
-    
+![](http://s13.sinaimg.cn/mw690/001YiQ09ty6FgVc2uRu7c&690)
+
 对应的字符就是 \r\n 。
 
 所以，开发过程中，在对textarea的输入值做字符数限制的时候，前后端需要考虑好用哪种形式提交数据。
