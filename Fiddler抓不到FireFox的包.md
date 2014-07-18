@@ -1,0 +1,1 @@
+身为天朝的程序员是特别苦逼的，为了翻墙浏览技术文章，不得不装了goagent，然后在firefox里安装AutoProxy插件，结果开发时，用fiddler抓包就傻逼了，发现fiddler无任何动静，各种尝试之后，终于发现是AutoProxy的问题，无奈只能到插件管理器中，disable掉AutoProxy，然后恢复正常！
